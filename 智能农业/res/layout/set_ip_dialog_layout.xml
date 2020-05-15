@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@drawable/dialog_bg"
+    android:padding="30dp">
+    <!--按钮
+   	 四个输入框 -->
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView style="@style/FontSize"
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/input_ip_address"
+            android:textColor="#292929"/>
+        
+        <Button android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dialog_close"
+            android:id="@+id/close_btn"/>
+        
+        
+    </LinearLayout>
+    
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/dialog_line"/>
+    
+    
+   <LinearLayout android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="0.5"
+       android:gravity="center"
+       android:orientation="horizontal">
+        <EditText style="@style/FontSize"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+           	android:layout_marginLeft="5dp"
+           	android:gravity="center"
+           	android:id="@+id/ip1_edit_et"
+           	android:inputType="number"
+           	android:maxLength="3"
+           	/>
+         <EditText style="@style/FontSize"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+           	android:layout_marginLeft="5dp"
+           	android:gravity="center"
+           	android:id="@+id/ip2_edit_et"
+           	android:inputType="number"
+           	android:maxLength="3"
+           	/>
+          <EditText style="@style/FontSize"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+           	android:layout_marginLeft="5dp"
+           	android:gravity="center"
+           	android:id="@+id/ip3_edit_et"
+           	android:inputType="number"
+           	android:maxLength="3"
+           	/>
+           <EditText style="@style/FontSize"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+           	android:gravity="center"
+           	android:id="@+id/ip4_edit_et"
+           	android:inputType="number"
+           	android:maxLength="3"
+           	/>
+        
+       
+   </LinearLayout>
+    
+	<Button
+	     android:layout_width="500dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        style="@style/FontSize"
+        android:layout_gravity="center|bottom"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_green"
+        android:id="@+id/ok_btn"
+        android:text="@string/ok_str"
+        android:textColor="@color/white"
+        />
+	    
+
+    
+
+</LinearLayout>
