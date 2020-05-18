@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="600dp"
+    android:layout_height="500dp"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_bg"
+    android:padding="20dp" >
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+     
+        >
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            style="@style/FontSize"
+            android:text="@string/register_str"
+            android:textColor="#292929"
+            />
+        <Button 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:id="@+id/close"
+            android:background="@drawable/dialog_close"/>
+        
+    </RelativeLayout>
+    
+    <View android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@drawable/dialog_line"/>
+	<EditText 
+	    android:layout_width="match_parent"
+	    android:layout_height="60dp"
+	    android:layout_marginLeft="60dp"
+	    android:layout_marginRight="60dp"
+	    android:layout_marginTop="20dp"
+	    style="@style/FontSize"
+	    android:id="@+id/account_edittext"
+	    android:background="@drawable/username_edit_bg"
+	    android:singleLine="true"
+	    />
+	<EditText 
+	    android:layout_width="match_parent"
+	    android:layout_height="60dp"
+	    android:layout_marginLeft="60dp"
+	    android:layout_marginRight="60dp"
+	    android:layout_marginTop="20dp"
+	    style="@style/FontSize"
+	    android:id="@+id/password_edittext"
+	    android:background="@drawable/password_edit_bg"
+	    android:singleLine="true"
+	    />
+	<Button 
+	    android:id="@+id/ok_button"
+	    style="@style/FontSize"
+	    android:layout_width="fill_parent"
+	    android:layout_height="60dp"
+	    android:layout_marginLeft="60dp"
+	    android:layout_marginRight="60dp"
+	    android:layout_marginTop="25dp"
+	    android:background="@drawable/btn_green"
+	    android:text="@string/ok_str"
+	    android:textColor="@color/white"
+	    />
+	
+</LinearLayout>
