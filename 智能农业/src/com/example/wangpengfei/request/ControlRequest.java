@@ -12,11 +12,13 @@ public class ControlRequest extends AgricultureRequest {
 	//蜂鸣器控制器
 	private int buzzer = 0;// 0表示关闭，1表示打开
 	
+	private int isOpen=0;
+	
 	private boolean isCtrWater = false;//是否要控制水泵
 	private boolean isCtrlBlower = false;//是否要控制风扇
 	private boolean istCtrlRoadLamp = false;//是否要控制路灯
 	private boolean isCtrlBuzzer = false;//是否要控制蜂鸣器
-	
+	private boolean isCtrlisopen = false;//
 	
 	
 	public ControlRequest(String userName) {
@@ -60,6 +62,12 @@ public class ControlRequest extends AgricultureRequest {
 		this.buzzer = buzzer;
 		this.isCtrlBuzzer=true;
 		
+	}
+
+
+	public void setWaterPump(int isOpen) {
+		this.isOpen = isOpen;
+		this.isCtrlisopen=true;
 	}
 
 

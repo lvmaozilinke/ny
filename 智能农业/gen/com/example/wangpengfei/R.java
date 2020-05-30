@@ -153,6 +153,7 @@ public final class R {
         public static final int username_no_empty=0x7f07000f;
         public static final int value=0x7f070013;
         public static final int version_string=0x7f070003;
+        public static final int waiter=0x7f07001d;
         public static final int warning=0x7f070014;
         public static final int water_pump=0x7f070017;
     }
