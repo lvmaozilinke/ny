@@ -1,0 +1,5 @@
+package com.example.wangpengfei.dialog;
+
+public class SettingLanguageDialog extends BaseDialog {
+
+}

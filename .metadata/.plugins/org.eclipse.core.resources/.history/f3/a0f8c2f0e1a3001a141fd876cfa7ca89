@@ -1,0 +1,13 @@
+package com.example.wangpengfei.dialog;
+
+import android.content.Context;
+
+public class SettingLanguageDialog extends BaseDialog {
+
+	public SettingLanguageDialog(Context mcontect) {
+		super(mcontect);
+		this.mcontext=mcontect;
+
+	}
+
+}
