@@ -82,12 +82,14 @@ public final class R {
         public static final int water_pump_on=0x7f020029;
     }
     public static final class id {
-        public static final int account_edit_text=0x7f0a001e;
-        public static final int account_edittext=0x7f0a0023;
-        public static final int action_settings=0x7f0a0026;
+        public static final int Cancel_language_btn=0x7f0a001e;
+        public static final int Ok_language_btn=0x7f0a001f;
+        public static final int account_edit_text=0x7f0a0023;
+        public static final int account_edittext=0x7f0a0028;
+        public static final int action_settings=0x7f0a002b;
         public static final int air_setting_layout=0x7f0a0019;
         public static final int autoControlCheckBox=0x7f0a0014;
-        public static final int close=0x7f0a0022;
+        public static final int close=0x7f0a0027;
         public static final int close_btn=0x7f0a000d;
         public static final int co2_setting_layout=0x7f0a0017;
         public static final int controller_icon=0x7f0a0004;
@@ -100,27 +102,30 @@ public final class R {
         public static final int ip4_edit_et=0x7f0a0011;
         public static final int language_layout=0x7f0a0013;
         public static final int light_setting_layout=0x7f0a0018;
-        public static final int login_button=0x7f0a0020;
+        public static final int login_button=0x7f0a0025;
         public static final int name_text_view=0x7f0a0002;
         public static final int ok_btn=0x7f0a0012;
-        public static final int ok_button=0x7f0a0025;
+        public static final int ok_button=0x7f0a002a;
         public static final int open_text_view=0x7f0a0005;
-        public static final int password_edit_text=0x7f0a001f;
-        public static final int password_edittext=0x7f0a0024;
+        public static final int password_edit_text=0x7f0a0024;
+        public static final int password_edittext=0x7f0a0029;
         public static final int pm25_setting_layout=0x7f0a0016;
+        public static final int radio0=0x7f0a001c;
+        public static final int radio1=0x7f0a001d;
+        public static final int radioGroup1=0x7f0a001b;
         public static final int real_tabvontent=0x7f0a0007;
-        public static final int register_text_view=0x7f0a0021;
+        public static final int register_text_view=0x7f0a0026;
         public static final int sensor_item_layout=0x7f0a0008;
         public static final int sensor_name_text=0x7f0a0009;
         public static final int sensor_value_text=0x7f0a000c;
-        public static final int set_ip_text_view=0x7f0a001d;
+        public static final int set_ip_text_view=0x7f0a0022;
         public static final int set_value_text=0x7f0a000b;
         public static final int showStudyCheckBox=0x7f0a0015;
         public static final int soil_setting_layout=0x7f0a001a;
         public static final int status_text=0x7f0a000a;
         public static final int status_text_view=0x7f0a0003;
-        public static final int tab_tv=0x7f0a001b;
-        public static final int title_tv=0x7f0a001c;
+        public static final int tab_tv=0x7f0a0020;
+        public static final int title_tv=0x7f0a0021;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -132,11 +137,12 @@ public final class R {
         public static final int sensor_grid_item=0x7f030006;
         public static final int set_ip_dialog_layout=0x7f030007;
         public static final int setting_fragment_layout=0x7f030008;
-        public static final int splash_activity_layout=0x7f030009;
-        public static final int tab_item_layout=0x7f03000a;
-        public static final int title_layout=0x7f03000b;
-        public static final int user_login_layout=0x7f03000c;
-        public static final int user_register_dialog=0x7f03000d;
+        public static final int setting_language_layout=0x7f030009;
+        public static final int splash_activity_layout=0x7f03000a;
+        public static final int tab_item_layout=0x7f03000b;
+        public static final int title_layout=0x7f03000c;
+        public static final int user_login_layout=0x7f03000d;
+        public static final int user_register_dialog=0x7f03000e;
     }
     public static final class menu {
         public static final int main=0x7f090000;
