@@ -1,3 +1,5 @@
 com.android.ide.eclipse.adt.fixLegacyEditors=1
 com.android.ide.eclipse.adt.sdk=D\:\\U\u76D8\u5907\u4EFD\\Android2\\android-sdk-19\\sdk
+com.android.ide.eclipse.adt.xmlEditor=true
+design.structure.flyout.width=207
 eclipse.preferences.version=1

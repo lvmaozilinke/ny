@@ -65,7 +65,7 @@ public class ControlFragment extends Fragment  implements OnPageChangeListener{
 
 		super.onActivityCreated(savedInstanceState);
 		initData();
-		setRequest();
+//		setRequest();
 		initView();
 	}
 

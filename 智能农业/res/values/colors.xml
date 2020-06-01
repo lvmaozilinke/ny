@@ -12,4 +12,5 @@
     <color name="card_bg_green">#bb22ee00</color>
     <color name="card_bg_red">#bbff0000</color>
     <color name="cd">#cdcdcd</color>
+    <color name="black">#ff000000</color>
 </resources>
