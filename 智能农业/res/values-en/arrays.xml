@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="tab_array">
+        <item name="envi">Enviroment</item>
+        <item name="history">History</item>
+        <item name="control">HanderControl</item>
+        <item name="setting">SystemSetting</item>
+    </string-array>
+    
+    <string-array name="sensor">
+        <item name="co2">CO2</item>
+        <item name="light">light</item>
+        <item name="air_h">air_h</item>
+        <item name="air_t">air_t</item>
+        <item name="soil_h">soil_h</item>
+        <item name="soil_t">soil_t</item>
+    </string-array>
+
+</resources>
+

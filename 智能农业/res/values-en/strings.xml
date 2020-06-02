@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    
+       <string name="app_name">Algricutrue_wpf</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="version_string">Welcome\nAIAlgricultrue! \nVersion: 20.06.02</string>
+    <string name="login_str">Login</string>
+    <string name="register_str">RegisterUser</string>
+    <string name="setting_ip_str">Ipsetting</string>
+    <string name="username_hint_str">InputName</string>
+    <string name="password_str">InputPassword</string>
+    <string name="ok_str">OK</string>
+    <string name="input_ip_address">InputIp</string>
+    <string name="prompt">prompt</string>
+    <string name="no_new_work">no new work</string>
+    <string name="failed">failed</string>
+    <string name="login_wait">login wait</string>
+    <string name="username_no_empty">username no empty</string>
+    <string name="password_no_empty">password no empty</string>
+    
+    
+    <string name="light_title">Light</string>
+	<string name="set_value">set_value：</string>
+	<string name="value">8888</string>
+	<string name="warning">warning</string>
+	<string name="normal">normal</string>
+	
+	<string name="current_status">current status:</string>
+<string name="water_pump">water pump</string>
+<string name="blower">blower</string>
+<string name="road_lamp">road lamp</string>
+<string name="buzzer">buzzer</string>
+<string name="open_str">open</string>
+<string name="close_str">close</string>
+
+
+	<string name="waiter">Loginning...</string>
+    <string name="language_seting">Language_Setting</string>
+    <string name="auto_control">Auto_Control</string>
+    <string name="pm25_threshold_value_setting">PM2.5ThresholdSetting</string>
+    <string name="co2_threshold_value_setting">CO2ThresholdSetting</string>
+    <string name="light_threshold_value_setting">LightThresholdSetting</string>
+    <string name="air_threshold_value_setting">airHumi_TempThresholdSetting</string>
+    <string name="soil_threshold_value_setting">soilHumi_TempThresholdSetting</string>
+    <string name="min_value">min_value</string>
+    <string name="max_value">max_value</string>
+    <string name="min_max_value_not_empty">min_max_value_not_empty!</string>
+    <string name="setting_failed">setting_failed！</string>
+    <string name="no_authority_exp">no_authority_exp！</string>
+    <string name="no_setting_authority_exp">no_setting_authority_exp！</string>
+    <string name="not_show_next_time">not_show_next_time</string>
+
+</resources>
