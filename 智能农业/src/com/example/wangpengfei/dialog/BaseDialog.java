@@ -2,8 +2,6 @@ package com.example.wangpengfei.dialog;
 
 import com.example.wangpengfei.ClientApp;
 import com.example.wangpengfei.request.BaseRequest;
-import com.example.wangpengfei.request.RequestThread;
-
 import android.R;
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;

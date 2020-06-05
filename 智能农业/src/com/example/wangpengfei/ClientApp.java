@@ -5,7 +5,6 @@ import com.example.wangpengfei.bean.SensorValueBean;
 import com.example.wangpengfei.request.BaseRequest.RequestResult;
 import com.example.wangpengfei.request.RequestThread;
 
-import android.R.string;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Application;
@@ -14,7 +13,9 @@ import android.content.SharedPreferences.Editor;
 import android.os.Handler;
 import android.os.Message;
 import android.preference.PreferenceManager;
-import android.widget.EditText;
+
+
+
 
 public class ClientApp extends Application {
 	private SharedPreferences msharedPreferences;
@@ -25,8 +26,31 @@ public class ClientApp extends Application {
 	
 	private SensorConfigBean mSensorConfig;
 	private SensorValueBean mCurSensorValue;
+
+//	 private int isShowSlideScreen=0;//0代表不显示滑屏，1代表显示滑屏
+	private int isShowSlideScreen=1;//0代表不显示滑屏，1代表显示滑屏
 	
 
+	
+	
+	public int getIsShowSlideScreen() {
+		int isShowSlideScreen=msharedPreferences.getInt("isShowScreen", 1);
+		return isShowSlideScreen;
+	}
+	public void setIsShowSlideScreen(int isShowSlideScreen) {
+		Editor edit=msharedPreferences.edit();
+		edit.putInt("isShowScreen", isShowSlideScreen);
+		edit.commit();
+	}
+	
+	
+	
+	
+	
+	
+	public void setMhandler(Handler mhandler) {
+		this.mhandler = mhandler;
+	}
 	@Override
 	public void onCreate() {
 		super.onCreate();
@@ -146,6 +170,15 @@ public class ClientApp extends Application {
 			}
 		});
 	}
+	
+	
+	
+	
+
+	
+	
+	
+	
 	public String getServerIp(){
 		String ipstr=msharedPreferences.getString("Ipstr", "");
 		if(ipstr.equals(""))
@@ -183,6 +216,10 @@ public void setPassword(String password){
 	edit.commit();
 	
 }
+
+
+
+
 
 //设置Activity的方法：
 //用来接收传进来的activity对象

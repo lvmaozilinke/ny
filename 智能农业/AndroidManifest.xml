@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.wangpengfei"
     android:versionCode="1"
-    android:versionName="6.02" >
+    android:versionName="6.05" >
 
     <uses-sdk
         android:minSdkVersion="19"
@@ -29,6 +29,7 @@
             android:screenOrientation="landscape"></activity>
         <activity android:name="com.example.wangpengfei.MainActivity"></activity>
         <activity android:name="com.example.wangpengfei.UserLoginActivity"></activity>
+           <activity android:name="com.example.wangpengfei.GuideScreenActivity"></activity>
     </application>
 
 </manifest>
