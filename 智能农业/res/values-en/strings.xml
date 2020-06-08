@@ -52,5 +52,5 @@
     <string name="no_authority_exp">no_authority_exp！</string>
     <string name="no_setting_authority_exp">no_setting_authority_exp！</string>
     <string name="not_show_next_time">not_show_next_time</string>
-
+<string name="setting_str">setting</string>
 </resources>

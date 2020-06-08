@@ -5,7 +5,9 @@ import java.util.Locale;
 import com.example.wangpengfei.ClientApp;
 import com.example.wangpengfei.MainActivity;
 import com.example.wangpengfei.R;
+import com.example.wangpengfei.dialog.SettingCo2Dialog;
 import com.example.wangpengfei.dialog.SettingLanguageDialog;
+import com.example.wangpengfei.dialog.SettingLightDialog;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -32,6 +34,10 @@ public class SettingFragment extends Fragment {
 	LinearLayout mlinearlayout;
 	CheckBox mShowScreenCk;// 设置是否显示滑屏控件
 	ClientApp mApp;
+	
+	LinearLayout mco2linearlayout;
+	LinearLayout mlightlinearlayout;
+	
 	Handler mHandler = new Handler() {
 
 		@Override
@@ -62,6 +68,31 @@ public class SettingFragment extends Fragment {
 	}
 
 	private void setListener() {
+		mlightlinearlayout.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				SettingLightDialog  mdialog=new SettingLightDialog(getActivity());
+				mdialog.setCancelable(true);
+				mdialog.show(getActivity().getFragmentManager(), "设置光照阈值");
+				
+			}
+		});
+		
+		
+		
+		mco2linearlayout.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				SettingCo2Dialog  mdialog2=new SettingCo2Dialog(getActivity());
+				mdialog2.setCancelable(true);
+				mdialog2.show(getActivity().getFragmentManager(), "设置Co2浓度阈值");
+			}
+		});
+		
+		
+		
 		mlinearlayout.setOnClickListener(new OnClickListener() {
 
 			@Override
@@ -90,6 +121,11 @@ public class SettingFragment extends Fragment {
 	}
 
 	private void InitView() {
+		mco2linearlayout=(LinearLayout)getView().findViewById(R.id.co2_setting_layout);
+		mlightlinearlayout=(LinearLayout)getView().findViewById(R.id.light_setting_layout);
+		
+		
+		
 		mlinearlayout = (LinearLayout) getView().findViewById(
 				R.id.language_layout);
 
