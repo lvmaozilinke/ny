@@ -3,7 +3,7 @@
    <string name="app_name">智慧农业_王鹏飞</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-	<string name="version_string">欢迎进入\n智能农业系统!\n版本号：20.6.08</string>
+	<string name="version_string">欢迎进入\n智能农业系统!\n版本号：20.6.09</string>
     <string name="login_str">登录</string>
     <string name="register_str">用户注册</string>
     <string name="setting_ip_str">Ip设置</string>
@@ -43,6 +43,13 @@
 <string name="light_threshold_value_setting">光照强度阀值设置</string>
 <string name="air_threshold_value_setting">空气温湿度阀值设置</string>
 <string name="soil_threshold_value_setting">土壤温湿度阀值设置</string>
+		<string name="air_humi_threshold_value_setting">空气湿度阈值设置</string>
+		<string name="air_temp_threshold_value_setting">空气温度阈值设置</string>
+		
+
+
+
+
 <string name="min_value">最小值</string><string name="max_value">最大值</string>
 <string name="min_max_value_not_empty">最小值或最大值不能为空!</string>
 <string name="setting_failed">设置失败！</string>
@@ -51,4 +58,9 @@
 <string name="not_show_next_time">下次启动时显示用户引导界面</string>
 
 	<string name="setting_str">设置</string>
+	
+
+	
+	
+	
 </resources>

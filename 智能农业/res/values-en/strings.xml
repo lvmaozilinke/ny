@@ -6,7 +6,7 @@
        <string name="app_name">Algricutrue_wpf</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-	<string name="version_string">Welcome\nAIAlgricultrue! \nVersion: 20.06.02</string>
+	<string name="version_string">Welcome\nAIAlgricultrue! \nVersion: 20.06.09</string>
     <string name="login_str">Login</string>
     <string name="register_str">RegisterUser</string>
     <string name="setting_ip_str">Ipsetting</string>
