@@ -5,6 +5,8 @@ import java.util.Locale;
 import com.example.wangpengfei.ClientApp;
 import com.example.wangpengfei.MainActivity;
 import com.example.wangpengfei.R;
+import com.example.wangpengfei.dialog.SetAir_ThresholdValue;
+import com.example.wangpengfei.dialog.SetSoil_ThresholdValue;
 import com.example.wangpengfei.dialog.SettingCo2Dialog;
 import com.example.wangpengfei.dialog.SettingLanguageDialog;
 import com.example.wangpengfei.dialog.SettingLightDialog;
@@ -37,6 +39,9 @@ public class SettingFragment extends Fragment {
 	
 	LinearLayout mco2linearlayout;
 	LinearLayout mlightlinearlayout;
+	LinearLayout mairLinearlayout;
+	LinearLayout soilLinearLayout;
+	
 	
 	Handler mHandler = new Handler() {
 
@@ -118,12 +123,40 @@ public class SettingFragment extends Fragment {
 				}
 			}
 		});
+	
+		mairLinearlayout.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+					SetAir_ThresholdValue mdialog=new SetAir_ThresholdValue(getActivity());
+					mdialog.setCancelable(true);
+					mdialog.show(getActivity().getFragmentManager(), "设置空气阈值");
+					
+					
+			}
+		});
+		soilLinearLayout.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+					SetSoil_ThresholdValue mdialog=new SetSoil_ThresholdValue(getActivity());
+					mdialog.setCancelable(true);
+					mdialog.show(getActivity().getFragmentManager(), "设置土壤阈值");
+					
+					
+			}
+		});
 	}
-
+	
+	
+	
 	private void InitView() {
 		mco2linearlayout=(LinearLayout)getView().findViewById(R.id.co2_setting_layout);
 		mlightlinearlayout=(LinearLayout)getView().findViewById(R.id.light_setting_layout);
-		
+		 mairLinearlayout=(LinearLayout) getView().findViewById(R.id.air_setting_layout);
+		 
+		 soilLinearLayout=(LinearLayout) getView().findViewById(R.id.soil_setting_layout);
+		 
 		
 		
 		mlinearlayout = (LinearLayout) getView().findViewById(

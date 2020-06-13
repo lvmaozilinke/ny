@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:baselineAligned="false"
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/air_humi_threshold_value_setting"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"/>
+    
+
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:orientation="horizontal">
+        
+         <LinearLayout 
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/min_value"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"/>
+        
+        
+        <EditText 
+            android:id="@+id/soil_temp_min_value_edit_text"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:maxLength="5"
+            android:singleLine="true"
+            android:textSize="25sp"/>
+        
+        
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/max_value"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"/>
+        
+        
+        <EditText 
+            android:id="@+id/soil_temp_max_value_edit_text"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:maxLength="5"
+            android:singleLine="true"
+            android:textSize="25sp"/>
+        </LinearLayout>
+        
+    </LinearLayout>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#ff000000"
+/>
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:orientation="vertical">
+           <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/air_temp_threshold_value_setting"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"/>
+        <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:orientation="horizontal">
+        
+         <LinearLayout 
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/min_value"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"/>
+        
+        
+        <EditText 
+            android:id="@+id/soil_humi_min_value_edit_text"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:maxLength="5"
+            android:singleLine="true"
+            android:textSize="25sp"/>
+        
+        
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/max_value"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"/>
+        
+        
+        <EditText 
+            android:id="@+id/soil_humi_max_value_edit_text"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:maxLength="5"
+            android:singleLine="true"
+            android:textSize="25sp"/>
+        </LinearLayout>
+        
+    </LinearLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>
+
+
